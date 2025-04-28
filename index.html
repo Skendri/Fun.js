@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flickering Text</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div>
+      <h1 class="text" contenteditable>Flicker</h1>
+      <span class="text" aria-hidden="true">i</span>
+    </div>
+
+    <fieldset>
+      <label for="flickerLetter">Letter</label>
+      <input type="text" id="flickerLetter" />
+
+      <label for="flickerPosition">Offset</label>
+      <input type="text" id="flickerPosition" />
+    </fieldset>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
